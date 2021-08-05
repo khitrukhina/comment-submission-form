@@ -1,0 +1,34 @@
+.commentForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 40%;
+    
+}
+
+
+.form textarea {
+    margin: 8px 0;
+    padding: 5px;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form input {
+    margin: 8px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form.error input,
+.form.error textarea{
+    border: 1px solid rgb(238, 48, 48);
+    box-shadow: 0 0 2px 1px rgb(238, 48, 48);
+}
+.form.error span {
+    color:rgb(238, 48, 48);
+}
